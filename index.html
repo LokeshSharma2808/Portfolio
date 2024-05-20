@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lokesh Sharma - Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4b041cb77b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Lokesh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li>
+              <a href=""><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-address-card"></i> About</a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa-brands fa-creative-commons-nd"></i> Services</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa-solid fa-diagram-project"></i> Projects</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-address-book"></i> Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="namecolor">Lokesh Sharma</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="My_image.png" alt="My Image" />
+        </div>
+      </section>
+      <hr />
+
+      <!-- ________________________ABout section start hai yahan se_________ -->
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="Image.png" alt="user ki image " />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                fugit consequatur dolorem numquam amet ullam iusto deleniti
+                provident, nobis quae culpa sapiente ex iste nemo officiis iure
+                sunt, quo voluptas recusandae! Iusto culpa architecto modi fuga
+                non porro voluptates debitis, libero asperiores perferendis quo
+                aperiam? Labore provident minima debitis id harum totam. Natus,
+                laborum corporis nobis laudantium ex veritatis possimus soluta
+                porro corrupti voluptatum ducimus asperiores ullam alias
+                exercitationem repellat blanditiis eos aliquam culpa nihil totam
+                molestiae, sapiente accusamus! Sunt maiores earum assumenda
+                quidem perferendis possimus minima nisi magni sed perspiciatis
+                ea in illum iure, maxime aliquam dignissimos doloremque ut.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('Education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>Web</span><br />skill related to Web</li>
+                  <li><span>analyst</span><br />skill related to Web</li>
+                  <li>
+                    <span>Machine Learning</span><br />skill related to Web
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Education">
+                <ul>
+                  <li><span>B.Tech</span><br />7.3 SGPA</li>
+                  <li><span>Class 12th</span><br />93.8%</li>
+                  <li><span>Class 10th</span><br />90.4%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!--------------------- HERE BEGINS THE SERVICES SECTION-------------------- -->
+
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <h2>Web Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
+                beatae eligendi quae ipsam optio, natus nam libero eius soluta
+                fugit consequatur eaque aliquid modi sit quas porro totam?
+                Sapiente consequuntur quis asperiores cupiditate dolore suscipit
+                mollitia atque impedit officia autem.
+              </p>
+              <a href="#">learn more</a>
+            </div>
+            <div>
+              <h2>Service 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
+                beatae eligendi quae ipsam optio, natus nam libero eius soluta
+                fugit consequatur eaque aliquid modi sit quas porro totam?
+                Sapiente consequuntur quis asperiores cupiditate dolore suscipit
+                mollitia atque impedit officia autem.
+              </p>
+              <a href="#">learn more</a>
+            </div>
+            <div>
+              <h2>Service 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
+                beatae eligendi quae ipsam optio, natus nam libero eius soluta
+                fugit consequatur eaque aliquid modi sit quas porro totam?
+                Sapiente consequuntur quis asperiores cupiditate dolore suscipit
+                mollitia atque impedit officia autem.
+              </p>
+              <a href="#">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!-- ------------------Here begins the portfolio section ------------------------>
+
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">Portfolio</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="image1.webp" alt="image1" />
+              <div class="layer">
+                <h3>project1</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                  quia molestias voluptate error dolorem illo unde quisquam
+                  atque ullam deleniti.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="image2.jpg" alt="image2" />
+              <div class="layer">
+                <h3>project2</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                  quia molestias voluptate error dolorem illo unde quisquam
+                  atque ullam deleniti.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="image3.png" alt="image3" />
+              <div class="layer">
+                <h3>project3</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                  quia molestias voluptate error dolorem illo unde quisquam
+                  atque ullam deleniti.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+
+      <!-- Here begins the contact section of the webpage -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p>
+                <i class="fa-solid fa-envelope"></i> lokeshsharma2808@gmail.com
+              </p>
+              <p><i class="fa-solid fa-phone"></i> +91 8006898915</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lokesh-sharma-b425ab22a/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.kaggle.com/lokeshsharma2808"
+                  ><i class="fa-brands fa-kaggle"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+              </div>
+              <a href="Lokesh-Sharma-Resume.pdf" download class="btn btn2"
+                ><i class="fa-solid fa-download"></i> Download CV</a
+              >
+            </div>
+            <div class="contact-right">
+              <form>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- here is the footer section -->
+
+      <footer>
+        <div class="copyright">
+          <p>
+            Copyright <i class="fa-regular fa-copyright"></i> Lokesh Sharma. <br>
+            Made with <i class="fa-regular fa-heart"></i> by Lokesh Sharma.
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer.",
+          "learner in Machine Learning.",
+          "Front-End Web Developer.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
