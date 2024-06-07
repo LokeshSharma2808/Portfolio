@@ -68,11 +68,7 @@ main hr {
   margin: 40px 84px;
 }
 
-
-
-
-
-/* Yahan se abouot section ke liye css chalii hui hai */
+/* Yahan se abouot section ke liye css start hui hai */
 
 #about{
   padding:80px 0 ;
@@ -141,8 +137,6 @@ main hr {
   display: block;
 }
 
-
-
 /* here is the css for services section begins */
 
 #services{
@@ -178,8 +172,6 @@ main hr {
   background: #ff004f;
   transform: translateY(-10px);
 }
-
-
 
 /* here starts the css for the portfolio */
 
@@ -328,10 +320,4 @@ form .btn2{
 }
 .copyright i{
   color: #ff004f;
-}
-
-
-/*  CSS for Small screens */
-@media only screen and (max-width: 600px) {
-  
 }
